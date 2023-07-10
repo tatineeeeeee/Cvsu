@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CvSU Vision and Mission</title>
+    <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  max-height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #2196f3;
+}
+
+main {
+  margin-top: 120px;
+  padding: 40px 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.info {
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Additional styles for responsive design */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .logo img {
+    max-width: 80%;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="CvSU Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#about">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="vision">
+        <h1>CvSU Vision</h1>
+        <p>The premier university in historic Cavite recognized for excellence in the development of globally competitive and morally upright individuals.</p>
+      </section>
+      <section id="mission">
+        <h1>CvSU Mission</h1>
+        <p>Cavite State University shall provide excellent, equitable, and relevant educational opportunities in the arts, sciences and technology through quality instruction and responsive research and development activities. It shall produce professional, skilled and morally upright individuals for global competitiveness.</p>
+      </section>
+      <section id="about">
+        <h1>About Me</h1>
+        <div class="info">
+          <p><strong>Name:</strong> Justine Cesar Ocampo</p>
+          <p><strong>Course:</strong> BS Information Technology</p>
+          <p><strong>Year and Section:</strong> 1-8</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
